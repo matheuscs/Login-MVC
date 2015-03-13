@@ -6,7 +6,10 @@ public class LoginHardCoded implements LoginInterface {
 
 	@Override
 	public boolean isValidUser(User user) {
-		if(user.getUser().equals("user") && user.getPass().equals("pass123")) {
+		if(user.getUser().equals("user1") && user.getPass().equals("p1")) {
+			return true;
+		}
+		else if(user.getUser().equals("user2") && user.getPass().equals("p2")) {
 			return true;
 		}
 		return false;
