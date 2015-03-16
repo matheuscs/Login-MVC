@@ -12,6 +12,9 @@ public class LoginHardCoded implements LoginInterface {
 		else if(user.getUser().equals("user222") && user.getPass().equals("pass222")) {
 			return true;
 		}
+		else if(user.getUser().equals("user333") && user.getPass().equals("pass333")) {
+			return true;
+		}
 		return false;
 	}
 }
